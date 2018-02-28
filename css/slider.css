@@ -17,19 +17,20 @@ h1{
 }
 /* Image slider */
 .slider-div{
+  display: flex;
+  justify-content: space-between;
   margin-top: 10%;
   margin-left: -24%;
 
 }
 
 .images-div{
-  float: left;
   width: 65%;
-  border: solid 1px red;
 }
 
+
+
 .text-div{
-  float: right;
   width: 30%;
   margin-right: 5%;
 }
@@ -40,10 +41,13 @@ h1{
   margin-right: 1%;
   margin-top: 1%;
 }
+.slider-image:last-child{
+  border: solid 10px red;
+}
 
 .arrow{
   padding:3%;
-  float: left;
+  float: right;
   margin-top: 1%;
   margin-right: 1%;
   border-radius: 10%;
