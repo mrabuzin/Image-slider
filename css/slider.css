@@ -1,0 +1,39 @@
+/* Global Layout Set-up */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Mukta Malar', sans-serif;
+  color: #222;
+  background: #e2e2e2;
+}
+
+h1{
+  color: #173191;
+}
+/* Images */
+.slider-div{
+  margin-top: 10%;
+}
+
+.images-div{
+  float: left;
+  width: 65%;
+}
+
+.text-div{
+  float: right;
+  width: 30%;
+  margin-right: 5%;
+}
+
+.slider-image {
+  border-radius: 5%;
+  float: left;
+  margin-right: 1%;
+  margin-top: 1%;
+}
