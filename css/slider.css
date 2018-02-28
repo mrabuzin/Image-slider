@@ -9,20 +9,23 @@ body {
   padding: 0;
   font-family: 'Mukta Malar', sans-serif;
   color: #222;
-  background: #e2e2e2;
+  background: #fff;
 }
 
 h1{
   color: #173191;
 }
-/* Images */
+/* Image slider */
 .slider-div{
   margin-top: 10%;
+  margin-left: -24%;
+
 }
 
 .images-div{
   float: left;
   width: 65%;
+  border: solid 1px red;
 }
 
 .text-div{
@@ -36,4 +39,20 @@ h1{
   float: left;
   margin-right: 1%;
   margin-top: 1%;
+}
+
+.arrow{
+  padding:3%;
+  float: left;
+  margin-top: 1%;
+  margin-right: 1%;
+  border-radius: 10%;
+}
+
+.arrow-blue{
+  border: solid 1px #134880;
+}
+
+.arrow-gray{
+  border: solid 1px #DDDDDD;
 }
